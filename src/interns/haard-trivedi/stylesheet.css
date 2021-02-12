@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.99;
+    width: 100%;
+    top: 0%;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+p {
+    font-size: 18px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+h1 {
+    padding-bottom: 2vh;
+}
+
+.col {
+    text-align: center;
+    align-content: center;
+    height: max-content;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.col-md-5 {
+    align-content: center;
+    text-align: center;
+    background-color: #305d8a;
+    height: 100vh;
+    padding-top: 25vh;
+    color: whitesmoke;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.col-md-7 {
+    align-content: justify;
+    text-align: justify;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 15vh;
+    height: 100vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.row {
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img {
+    border-width: 2px;
+}
+
+.profile-pic {
+    width: 75%;
+}
+
+div a {
+    color: rgb(46, 173, 46);
+}
+
+div a:hover {
+    color: black;
+}
+
+col-right {
+    color: black;
+}
+
+col-right:hover {
+    color: #305d8a
+}
